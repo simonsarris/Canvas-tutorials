@@ -1,5 +1,21 @@
+// Last updated April 2011 by Simon Sarris
+// www.simonsarris.com
+// sarris@acm.org
+//
+// Free to use and distribute at will
+// So long as you are nice to people, etc
+
 var can = document.getElementById('canvas1');
 var ctx = can.getContext('2d');
+
+
+// Two "classes", TextVertical and TextVerticalCanvas.
+// The first one uses only drawText(), the second one uses drawText() to write
+// to its own canvas, and uses drawImage() for each call to the main canvas.
+// Initially created to test vertical text but you dont have to use that.
+// You can simplify it by editing `drawVertical`
+// If you do change it to draw normal lines of text, you'll have to also do some
+// width measurements (measureText, etc), to size the extra canvases correctly.
 
 
 // for laziness, font size will just be something we pass in
