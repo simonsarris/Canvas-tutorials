@@ -1,7 +1,7 @@
 // Last updated November 2011
 // By Simon Sarris
 // www.simonsarris.com
-// sarris@acm.org
+// my name @gmail.com
 //
 // Free to use and distribute at will
 // So long as you are nice to people, etc
