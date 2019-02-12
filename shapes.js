@@ -1,6 +1,6 @@
 // By Simon Sarris
 // www.simonsarris.com
-// sarris@acm.org
+// my name @gmail.com
 //
 // Last update December 2011
 //
