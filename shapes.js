@@ -117,6 +117,9 @@ function CanvasState(canvas) {
   canvas.addEventListener('mouseup', function(e) {
     myState.dragging = false;
   }, true);
+  canvas.addEventListener('mouseleave', function(e) {
+    myState.dragging = false;
+  });
   // double click for making new shapes
   canvas.addEventListener('dblclick', function(e) {
     var mouse = myState.getMouse(e);
